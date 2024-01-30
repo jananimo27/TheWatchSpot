@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: 'Epilogue', sans-serif;
+  background-color: #141414;
+}
+
+.main-header {
+  background-color: #141414;
+  color: #fff;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+  font-family: 'Epilogue', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.45px;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  margin-right: 80px;
+}
+
+p {
+  margin-left: 4px;
+  width: 100px;
+  height: 15px;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 15px;
+}
+
+.nav-link {
+  color: #fff;
+  text-align: center;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 40px;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.contact-box {
+  border-radius: 8px;
+  background: var(--dark-green, #1e2827);
+  width: 159px;
+  height: 48px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px; /* Adjust as needed */
+}
+
+.contact-number {
+  color: var(--white, #fff);
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
